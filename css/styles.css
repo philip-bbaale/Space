@@ -1,7 +1,7 @@
 .navigation_bar{
     height: auto;
     width: auto;
-    background-color: lightgray;
+    background-color: #666666;
     padding-left: 30px;
 }
 .dark_mode_switch{
@@ -11,4 +11,12 @@
 .DarkMode{
     background-color: black;
     color: white;
+}
+.background_image{
+    height: 250px;
+    width: auto;
+    background-image: url(../images/universe2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
