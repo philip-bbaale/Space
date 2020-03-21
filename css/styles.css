@@ -1,8 +1,7 @@
 .navigation_bar{
     height: auto;
     width: auto;
-    background-color: lightblue;
-    padding: 10px;
+    background-color: lightgray;
     padding-left: 30px;
 }
 .dark_mode_switch{
