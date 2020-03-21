@@ -1,8 +1,11 @@
 .navigation_bar{
     height: auto;
-    width: auto;
+    width: 100%;
     background-color: #666666;
     padding-left: 30px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
 .dark_mode_switch{
     float: right;
@@ -13,7 +16,7 @@
     color: white;
 }
 .background_image{
-    height: 250px;
+    height: 350px;
     width: auto;
     background-image: url(../images/universe2.jpg);
     background-repeat: no-repeat;
