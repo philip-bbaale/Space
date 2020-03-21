@@ -1,7 +1,7 @@
 .navigation_bar{
     height: auto;
     width: 100%;
-    background-color: #666666;
+    background-color: #e6e6e6;
     padding-left: 30px;
     position: fixed;
     z-index: 10;
@@ -29,11 +29,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 .info{
     height: auto;
     width: auto;
     justify-content: center;
+}
+.info_head{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Dosis', sans-serif;
 }
 .work_card{
     height: auto;
@@ -42,6 +49,24 @@
     padding: 15px;
     border-radius: 20px;
     border-color: #cccccc;
+}
+.work_card_image{
+    height: 250px;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.work_card_title{
+    animation: glow .5s infinite alternate;
+    font-weight: bold;
+}
+@keyframes glow {
+    to {
+        text-shadow: 0 0 10px yellowgreen;
+    }
+}
+.work_card:hover{
+    background-image: url(../images/universe2.jpg);
+    color: white;
 }
 .work_card .card-title{
     font-family: 'Space Mono', monospace;
