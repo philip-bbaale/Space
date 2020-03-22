@@ -77,6 +77,7 @@
     background-image: url(../images/milk_way.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     justify-content: center;
     padding: 50px;
     padding-bottom: 100px;
@@ -177,7 +178,3 @@
     color: white;
 }
 
-.xxx{
-    height: 1000px;
-    width: auto;
-}
