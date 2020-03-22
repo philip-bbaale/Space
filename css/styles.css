@@ -23,14 +23,13 @@
     background-color:#414a4c ;
 }
 .background_image{
-    height: 400px;
+    height: 300px;
     width: auto;
     background-image: url(../images/universe2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+
 }
 .info{
     height: auto;
