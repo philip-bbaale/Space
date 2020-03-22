@@ -28,7 +28,7 @@
     background-image: url(../images/universe2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -75,6 +75,7 @@
     height: auto;
     width: auto;
     background-image: url(../images/milk_way.jpg);
+    background-repeat: inherit;
     background-attachment: fixed;
     justify-content: center;
     padding: 50px;
@@ -94,7 +95,7 @@
     background-image: url(../images/planet_earth.png);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_mercury{
@@ -103,7 +104,7 @@
     background-image: url(../images/planet_mercury.png);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_venus{
@@ -112,7 +113,7 @@
     background-image: url(../images/planet_venus.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_mars{
@@ -121,7 +122,7 @@
     background-image: url(../images/planet_mars.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_jupiter{
@@ -130,7 +131,7 @@
     background-image: url(../images/planet_jupiter.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_saturn{
@@ -139,7 +140,7 @@
     background-image: url(../images/planet_saturn.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_uranus{
@@ -148,7 +149,7 @@
     background-image: url(../images/planet_uranus.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_neptune{
@@ -157,7 +158,7 @@
     background-image: url(../images/planet_neptune.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 .Planet_pluto{
@@ -166,7 +167,7 @@
     background-image: url(../images/planet_pluto.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0 0 40px 20px #000 inset, 0 0 20px 2px #000;
+    box-shadow: 0 0 100px 20px #000 inset, 0 0 20px 2px #000;
     animation: spin 30s linear alternate infinite;
 }
 @keyframes spin{
