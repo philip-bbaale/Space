@@ -34,6 +34,7 @@
     height: auto;
     width: auto;
     justify-content: center;
+    padding-bottom: 30px;
 }
 .info_head{
     text-align: center;
@@ -79,15 +80,19 @@
     padding: 50px;
     padding-bottom: 100px;
 }
-.planet_title{
-    text-align: center;
-    color: white;
+/*.planet_title{
+    justify-content: center;
     padding: 30px;
-    background-image: url(../images/sky_aurora.jpg);
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../images/availabe_planets.png);
+    background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Bungee Shade', cursive;
+    background-size: cover;
+    height: 100px;
     font-weight: bold;
-}
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}*/
 .planet_sphere{
     margin: 10px;
 }
