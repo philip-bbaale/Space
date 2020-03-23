@@ -184,7 +184,40 @@
     color: white;
 }
 .join_school{
-    height: 500px;
+    height: auto;
     width: auto;
     padding-top: 20px;
+}
+.about_sch1{
+    padding: 50px;
+}
+.about_sch2{
+    background-color: #e6e6e6;
+    text-align: left;
+    padding: 50px;
+}.DarkMode .join_school .jumbotron{
+    background-color: #414a4c;
+}
+.DarkMode .about_sch2{
+    background-color: #414a4c;
+}
+.about_sch3{
+    text-align: center;
+    padding: 50px;
+}
+.about_sch1 p ,.about_sch2 p, .about_sch2 ul{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+.about_sch1 h3{
+    font-family: 'Fredoka One', cursive;
+}
+.about_sch2 h2, .about_sch3 h2{
+    font-family: 'Acme', sans-serif;
+}
+.about_sch3 p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+
 }
