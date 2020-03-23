@@ -183,4 +183,8 @@
 .planet_name{
     color: white;
 }
-
+.join_school{
+    height: 500px;
+    width: auto;
+    padding-top: 20px;
+}
