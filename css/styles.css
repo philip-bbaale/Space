@@ -188,6 +188,14 @@
     width: auto;
     padding-top: 20px;
 }
+.join_school .jumbotron{
+    font-family: 'Titan One', cursive;
+    text-shadow: 0 0 5px white;
+    background-image: url(../images/School_head_day.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .about_sch1{
     padding: 50px;
 }
@@ -196,7 +204,11 @@
     text-align: left;
     padding: 50px;
 }.DarkMode .join_school .jumbotron{
-    background-color: #414a4c;
+    background-image: url(../images/School_head_night.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 5px black;
 }
 .DarkMode .about_sch2{
     background-color: #414a4c;
@@ -204,20 +216,20 @@
 .about_sch3{
     text-align: center;
     padding: 50px;
+    justify-content: center;
 }
 .about_sch1 p ,.about_sch2 p, .about_sch2 ul{
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
 }
-.about_sch1 h3{
+.about_sch1 h3, .about_sch3 h2{
     font-family: 'Fredoka One', cursive;
 }
-.about_sch2 h2, .about_sch3 h2{
+.about_sch2 h2{
     font-family: 'Acme', sans-serif;
 }
 .about_sch3 p{
     text-align: justify;
     font-size: 20px;
-    font-family: 'Fredoka One', cursive;
 
 }
